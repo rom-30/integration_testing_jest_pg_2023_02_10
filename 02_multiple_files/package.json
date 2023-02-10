@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "watchify": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "concurrently -r \"watchify ./js/index.js -o bundle.js\" \"python -m http.server\""
+  }
+}
