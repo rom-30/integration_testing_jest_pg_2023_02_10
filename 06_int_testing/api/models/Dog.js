@@ -7,7 +7,6 @@ class Dog {
     this.age = data.age
     this.owner_id = data.owner_id
   }
-
   static get all() {
     return new Promise(async (resolve, reject) => {
       try {
